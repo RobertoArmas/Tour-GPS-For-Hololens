@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06532AD9063310EED6BBE5F943392831 /* Pods-Tour GPS For HololensTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9190983C6ABCC68798A41DEE091136 /* Pods-Tour GPS For HololensTests-dummy.m */; };
+		0B4298C06E449AAB897B64460577CBE0 /* Pods-Tour GPS For HololensUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA828973871C5A97A4C7565A2DF235A /* Pods-Tour GPS For HololensUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FCE9725890FBAE271D805BC74DEEA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		65B7A7E46595BBB514BE296A1548ACB9 /* Pods-Tour GPS For Hololens-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C476F002B305E64729ABE4744466B5FD /* Pods-Tour GPS For Hololens-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817EB09BD11C97557F87A5C575512648 /* Pods-Tour GPS For HololensTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 684CF619DD3D90606EBD19678BB6528C /* Pods-Tour GPS For HololensTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFB5B7B370A79D6CA010F8ABE213C7A /* Pods-Tour GPS For Hololens-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03944DB037E5F915E948751786B7A31C /* Pods-Tour GPS For Hololens-dummy.m */; };
+		C7955EEE7FEEED7B2075645530620F15 /* Pods-Tour GPS For HololensUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D51C1D82E990068F9F8E884F1E44D6E5 /* Pods-Tour GPS For HololensUITests-dummy.m */; };
+		DFE6FF5C611CDDD3340864A474EF8D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F03FA2E83B624EDCBAF98EC3CC6D4787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03944DB037E5F915E948751786B7A31C /* Pods-Tour GPS For Hololens-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tour GPS For Hololens-dummy.m"; sourceTree = "<group>"; };
+		09468B9BC4C27054F0D0BFEB679E2EAD /* Pods-Tour GPS For HololensTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tour GPS For HololensTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		124E2AB4C09FA1B47B8EE75ADFD8BC48 /* Pods-Tour GPS For HololensTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour GPS For HololensTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A8319C58C8A5EEE99F47373736A3EE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB8FD91300D84BD65E0F1B1751FA841 /* Pods-Tour GPS For HololensUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour GPS For HololensUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1EFF7B917951044C9BCBFFD26FF16CFA /* Pods-Tour GPS For HololensTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour GPS For HololensTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21386B74FCD58F53123AE7E83B382E72 /* Pods-Tour GPS For HololensUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tour GPS For HololensUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A643AAE21A1A377CD730F4C552578BA /* Pods-Tour GPS For HololensTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tour GPS For HololensTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3174B7E575F28C9E507B4DAC380BB182 /* Pods-Tour GPS For Hololens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour GPS For Hololens.debug.xcconfig"; sourceTree = "<group>"; };
+		34A7FC7B96F24EFD8A468BEC49E8135E /* Pods-Tour GPS For HololensTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tour GPS For HololensTests.modulemap"; sourceTree = "<group>"; };
+		36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		3B4792A0E38112CCD7DA0C153043BF2A /* Pods-Tour GPS For HololensUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tour GPS For HololensUITests.modulemap"; sourceTree = "<group>"; };
+		3FDE9FB29ED4110906B16D2A2BFABCBD /* Pods-Tour GPS For HololensUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour GPS For HololensUITests-resources.sh"; sourceTree = "<group>"; };
+		4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		4B3EB3404A3FF8C422D278F2608E1502 /* Pods_Tour_GPS_For_HololensUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tour_GPS_For_HololensUITests.framework; path = "Pods-Tour GPS For HololensUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB7041EF7CD10FB8E21AB02559F8892 /* Pods-Tour GPS For Hololens-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour GPS For Hololens-frameworks.sh"; sourceTree = "<group>"; };
+		5BAA4496597537A38D6AFD87CA303EF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C55B391CF34B19AD9D189C7F13CB9F /* Pods-Tour GPS For Hololens-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tour GPS For Hololens-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		684CF619DD3D90606EBD19678BB6528C /* Pods-Tour GPS For HololensTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tour GPS For HololensTests-umbrella.h"; sourceTree = "<group>"; };
+		8BCF5A19080F1F1E1B74823D5269FCDC /* Pods_Tour_GPS_For_HololensTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tour_GPS_For_HololensTests.framework; path = "Pods-Tour GPS For HololensTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D636CAF8396189E482224BCA185810A /* Pods-Tour GPS For HololensUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour GPS For HololensUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991D10110735A945BC0365A115B62998 /* Pods-Tour GPS For Hololens.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tour GPS For Hololens.modulemap"; sourceTree = "<group>"; };
+		9CC3656A7F898FF0E32923AC5922C11A /* Pods-Tour GPS For HololensUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour GPS For HololensUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2BB31A55305DF7DE5BFB71DFB3171A4 /* Pods-Tour GPS For Hololens-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tour GPS For Hololens-acknowledgements.plist"; sourceTree = "<group>"; };
+		B22C2D711BBC53E71678F69A0D87036B /* Pods-Tour GPS For Hololens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour GPS For Hololens.release.xcconfig"; sourceTree = "<group>"; };
+		BC9190983C6ABCC68798A41DEE091136 /* Pods-Tour GPS For HololensTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tour GPS For HololensTests-dummy.m"; sourceTree = "<group>"; };
+		C476F002B305E64729ABE4744466B5FD /* Pods-Tour GPS For Hololens-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tour GPS For Hololens-umbrella.h"; sourceTree = "<group>"; };
+		CDC5FD7C4E36D42CB72DD1B6BCE55C6D /* Pods_Tour_GPS_For_Hololens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tour_GPS_For_Hololens.framework; path = "Pods-Tour GPS For Hololens.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF9F0088A6F494FD952B2F56C179705 /* Pods-Tour GPS For Hololens-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour GPS For Hololens-resources.sh"; sourceTree = "<group>"; };
+		D51C1D82E990068F9F8E884F1E44D6E5 /* Pods-Tour GPS For HololensUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tour GPS For HololensUITests-dummy.m"; sourceTree = "<group>"; };
+		D62A508586BDD8B4CACD8ACCACC6D4FD /* Pods-Tour GPS For HololensUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tour GPS For HololensUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		EA103F022CA694A3E8A327B2BAD9D29A /* Pods-Tour GPS For HololensTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour GPS For HololensTests-resources.sh"; sourceTree = "<group>"; };
+		EDA828973871C5A97A4C7565A2DF235A /* Pods-Tour GPS For HololensUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tour GPS For HololensUITests-umbrella.h"; sourceTree = "<group>"; };
+		F127B44FFCCFD91B5D77FE3C34B6B48C /* Pods-Tour GPS For HololensTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour GPS For HololensTests-frameworks.sh"; sourceTree = "<group>"; };
+		F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		FB71FB1013ACD793C36D9173214DA7E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FB66511B919B37F250F37E0B980CD44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FA2E83B624EDCBAF98EC3CC6D4787 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6791705FF7FAC88FEDE4681C58C6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCE9725890FBAE271D805BC74DEEA35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57DE08DF2171B80C434C9BA2FB8D38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE6FF5C611CDDD3340864A474EF8D88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1418B056D31B27EE2CEBA552B5ADFE56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				501562BF592517FC6A65661FF1B35C78 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
+				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		2A0AA619F0B48E02141A41BDFA7CCBA7 /* Pods-Tour GPS For HololensTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8319C58C8A5EEE99F47373736A3EE8 /* Info.plist */,
+				34A7FC7B96F24EFD8A468BEC49E8135E /* Pods-Tour GPS For HololensTests.modulemap */,
+				2A643AAE21A1A377CD730F4C552578BA /* Pods-Tour GPS For HololensTests-acknowledgements.markdown */,
+				09468B9BC4C27054F0D0BFEB679E2EAD /* Pods-Tour GPS For HololensTests-acknowledgements.plist */,
+				BC9190983C6ABCC68798A41DEE091136 /* Pods-Tour GPS For HololensTests-dummy.m */,
+				F127B44FFCCFD91B5D77FE3C34B6B48C /* Pods-Tour GPS For HololensTests-frameworks.sh */,
+				EA103F022CA694A3E8A327B2BAD9D29A /* Pods-Tour GPS For HololensTests-resources.sh */,
+				684CF619DD3D90606EBD19678BB6528C /* Pods-Tour GPS For HololensTests-umbrella.h */,
+				1EFF7B917951044C9BCBFFD26FF16CFA /* Pods-Tour GPS For HololensTests.debug.xcconfig */,
+				124E2AB4C09FA1B47B8EE75ADFD8BC48 /* Pods-Tour GPS For HololensTests.release.xcconfig */,
+			);
+			name = "Pods-Tour GPS For HololensTests";
+			path = "Target Support Files/Pods-Tour GPS For HololensTests";
+			sourceTree = "<group>";
+		};
+		501562BF592517FC6A65661FF1B35C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6499C08690EBAA067453C304D5C3FAB7 /* Pods-Tour GPS For HololensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB71FB1013ACD793C36D9173214DA7E3 /* Info.plist */,
+				3B4792A0E38112CCD7DA0C153043BF2A /* Pods-Tour GPS For HololensUITests.modulemap */,
+				21386B74FCD58F53123AE7E83B382E72 /* Pods-Tour GPS For HololensUITests-acknowledgements.markdown */,
+				D62A508586BDD8B4CACD8ACCACC6D4FD /* Pods-Tour GPS For HololensUITests-acknowledgements.plist */,
+				D51C1D82E990068F9F8E884F1E44D6E5 /* Pods-Tour GPS For HololensUITests-dummy.m */,
+				1BB8FD91300D84BD65E0F1B1751FA841 /* Pods-Tour GPS For HololensUITests-frameworks.sh */,
+				3FDE9FB29ED4110906B16D2A2BFABCBD /* Pods-Tour GPS For HololensUITests-resources.sh */,
+				EDA828973871C5A97A4C7565A2DF235A /* Pods-Tour GPS For HololensUITests-umbrella.h */,
+				8D636CAF8396189E482224BCA185810A /* Pods-Tour GPS For HololensUITests.debug.xcconfig */,
+				9CC3656A7F898FF0E32923AC5922C11A /* Pods-Tour GPS For HololensUITests.release.xcconfig */,
+			);
+			name = "Pods-Tour GPS For HololensUITests";
+			path = "Target Support Files/Pods-Tour GPS For HololensUITests";
+			sourceTree = "<group>";
+		};
+		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BC99F081C91F80679CFA5DDC6213D57 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */,
+				7679C02ACA204A8841D527A6548CA23E /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7679C02ACA204A8841D527A6548CA23E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
+				8B6E528E43300E7D0A242B08F867ACF6 /* Products */,
+				81976B15F1009D25AB5BF4983D855E56 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81976B15F1009D25AB5BF4983D855E56 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA9B6EC4067A38BF91562C2D5C68FA /* Pods-Tour GPS For Hololens */,
+				2A0AA619F0B48E02141A41BDFA7CCBA7 /* Pods-Tour GPS For HololensTests */,
+				6499C08690EBAA067453C304D5C3FAB7 /* Pods-Tour GPS For HololensUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B6E528E43300E7D0A242B08F867ACF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC5FD7C4E36D42CB72DD1B6BCE55C6D /* Pods_Tour_GPS_For_Hololens.framework */,
+				8BCF5A19080F1F1E1B74823D5269FCDC /* Pods_Tour_GPS_For_HololensTests.framework */,
+				4B3EB3404A3FF8C422D278F2608E1502 /* Pods_Tour_GPS_For_HololensUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */,
+				36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEFA9B6EC4067A38BF91562C2D5C68FA /* Pods-Tour GPS For Hololens */ = {
+			isa = PBXGroup;
+			children = (
+				5BAA4496597537A38D6AFD87CA303EF0 /* Info.plist */,
+				991D10110735A945BC0365A115B62998 /* Pods-Tour GPS For Hololens.modulemap */,
+				60C55B391CF34B19AD9D189C7F13CB9F /* Pods-Tour GPS For Hololens-acknowledgements.markdown */,
+				A2BB31A55305DF7DE5BFB71DFB3171A4 /* Pods-Tour GPS For Hololens-acknowledgements.plist */,
+				03944DB037E5F915E948751786B7A31C /* Pods-Tour GPS For Hololens-dummy.m */,
+				5AB7041EF7CD10FB8E21AB02559F8892 /* Pods-Tour GPS For Hololens-frameworks.sh */,
+				CFF9F0088A6F494FD952B2F56C179705 /* Pods-Tour GPS For Hololens-resources.sh */,
+				C476F002B305E64729ABE4744466B5FD /* Pods-Tour GPS For Hololens-umbrella.h */,
+				3174B7E575F28C9E507B4DAC380BB182 /* Pods-Tour GPS For Hololens.debug.xcconfig */,
+				B22C2D711BBC53E71678F69A0D87036B /* Pods-Tour GPS For Hololens.release.xcconfig */,
+			);
+			name = "Pods-Tour GPS For Hololens";
+			path = "Target Support Files/Pods-Tour GPS For Hololens";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CA1D01CB32B38A6A2CB512D12D16227 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817EB09BD11C97557F87A5C575512648 /* Pods-Tour GPS For HololensTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3280ECFBAAA506B31CD1C98A163969 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B7A7E46595BBB514BE296A1548ACB9 /* Pods-Tour GPS For Hololens-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1225572FBD55F069AAB3BC51025EED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4298C06E449AAB897B64460577CBE0 /* Pods-Tour GPS For HololensUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BA4294973B2DBFDF3AA0640A82DE7DB /* Pods-Tour GPS For Hololens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43249A6324E4C707BAD1342B53E9EEF0 /* Build configuration list for PBXNativeTarget "Pods-Tour GPS For Hololens" */;
+			buildPhases = (
+				EE16A279D2FE5C672D86C77EBDA18638 /* Sources */,
+				4FB66511B919B37F250F37E0B980CD44 /* Frameworks */,
+				6C3280ECFBAAA506B31CD1C98A163969 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tour GPS For Hololens";
+			productName = "Pods-Tour GPS For Hololens";
+			productReference = CDC5FD7C4E36D42CB72DD1B6BCE55C6D /* Pods_Tour_GPS_For_Hololens.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49EE122199107CF172A97CD9D95706AD /* Pods-Tour GPS For HololensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E7362B8AA6A886FE9AB567CF35061A /* Build configuration list for PBXNativeTarget "Pods-Tour GPS For HololensUITests" */;
+			buildPhases = (
+				B3D69CB447A3FB35E1F2785D977399FE /* Sources */,
+				EA6791705FF7FAC88FEDE4681C58C6F3 /* Frameworks */,
+				8A1225572FBD55F069AAB3BC51025EED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tour GPS For HololensUITests";
+			productName = "Pods-Tour GPS For HololensUITests";
+			productReference = 4B3EB3404A3FF8C422D278F2608E1502 /* Pods_Tour_GPS_For_HololensUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BEB3B9197F37C20E58C5A79D6EE6C2C /* Pods-Tour GPS For HololensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583AAF03C8E10A7C9CC9E48025942DDD /* Build configuration list for PBXNativeTarget "Pods-Tour GPS For HololensTests" */;
+			buildPhases = (
+				81706F013543B02CD9499A85A4614B3B /* Sources */,
+				F57DE08DF2171B80C434C9BA2FB8D38B /* Frameworks */,
+				1CA1D01CB32B38A6A2CB512D12D16227 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tour GPS For HololensTests";
+			productName = "Pods-Tour GPS For HololensTests";
+			productReference = 8BCF5A19080F1F1E1B74823D5269FCDC /* Pods_Tour_GPS_For_HololensTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8B6E528E43300E7D0A242B08F867ACF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BA4294973B2DBFDF3AA0640A82DE7DB /* Pods-Tour GPS For Hololens */,
+				8BEB3B9197F37C20E58C5A79D6EE6C2C /* Pods-Tour GPS For HololensTests */,
+				49EE122199107CF172A97CD9D95706AD /* Pods-Tour GPS For HololensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81706F013543B02CD9499A85A4614B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06532AD9063310EED6BBE5F943392831 /* Pods-Tour GPS For HololensTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D69CB447A3FB35E1F2785D977399FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7955EEE7FEEED7B2075645530620F15 /* Pods-Tour GPS For HololensUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE16A279D2FE5C672D86C77EBDA18638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFB5B7B370A79D6CA010F8ABE213C7A /* Pods-Tour GPS For Hololens-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D58095240EED7A64D6BF4C17513B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D636CAF8396189E482224BCA185810A /* Pods-Tour GPS For HololensUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tour GPS For HololensUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tour GPS For HololensUITests/Pods-Tour GPS For HololensUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tour_GPS_For_HololensUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		38AC4613D88B09EB6817672645B9613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22C2D711BBC53E71678F69A0D87036B /* Pods-Tour GPS For Hololens.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tour GPS For Hololens/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tour GPS For Hololens/Pods-Tour GPS For Hololens.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tour_GPS_For_Hololens;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E664B45FCCB09B573D4F8E2821474E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124E2AB4C09FA1B47B8EE75ADFD8BC48 /* Pods-Tour GPS For HololensTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tour GPS For HololensTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tour GPS For HololensTests/Pods-Tour GPS For HololensTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tour_GPS_For_HololensTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80D4454E8B72A746619F7D8E1868EC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3174B7E575F28C9E507B4DAC380BB182 /* Pods-Tour GPS For Hololens.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tour GPS For Hololens/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tour GPS For Hololens/Pods-Tour GPS For Hololens.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tour_GPS_For_Hololens;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D76297261C1878DE3C22B060446404CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFF7B917951044C9BCBFFD26FF16CFA /* Pods-Tour GPS For HololensTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tour GPS For HololensTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tour GPS For HololensTests/Pods-Tour GPS For HololensTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tour_GPS_For_HololensTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2D0E7AF92BAC309C536289B7E496857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC3656A7F898FF0E32923AC5922C11A /* Pods-Tour GPS For HololensUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tour GPS For HololensUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tour GPS For HololensUITests/Pods-Tour GPS For HololensUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tour_GPS_For_HololensUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43249A6324E4C707BAD1342B53E9EEF0 /* Build configuration list for PBXNativeTarget "Pods-Tour GPS For Hololens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D4454E8B72A746619F7D8E1868EC8B /* Debug */,
+				38AC4613D88B09EB6817672645B9613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583AAF03C8E10A7C9CC9E48025942DDD /* Build configuration list for PBXNativeTarget "Pods-Tour GPS For HololensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76297261C1878DE3C22B060446404CE /* Debug */,
+				4E664B45FCCB09B573D4F8E2821474E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E7362B8AA6A886FE9AB567CF35061A /* Build configuration list for PBXNativeTarget "Pods-Tour GPS For HololensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D58095240EED7A64D6BF4C17513B0AB /* Debug */,
+				E2D0E7AF92BAC309C536289B7E496857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

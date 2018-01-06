@@ -1,0 +1,6 @@
+framework module Pods_Tour_GPS_For_Hololens {
+  umbrella header "Pods-Tour GPS For Hololens-umbrella.h"
+
+  export *
+  module * { export * }
+}
