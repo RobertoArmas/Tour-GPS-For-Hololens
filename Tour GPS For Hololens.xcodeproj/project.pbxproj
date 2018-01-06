@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8056709DF03D27499B41E2E2 /* Pods_Tour_GPS_For_HololensUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240F84AE3F4F2A7F958380CC /* Pods_Tour_GPS_For_HololensUITests.framework */; };
+		C9B2CAFF38BB851FF5998607 /* Pods_Tour_GPS_For_HololensTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DA4F6237B1206232732B01 /* Pods_Tour_GPS_For_HololensTests.framework */; };
+		E8A42D44891DC6048F614CC9 /* Pods_Tour_GPS_For_Hololens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12220C6B0E82892B59BF1BED /* Pods_Tour_GPS_For_Hololens.framework */; };
+		FB3D92711FB751BE001663BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3D92701FB751BD001663BC /* Default-568h@2x.png */; };
+		FB3FDDFE1F801BE100A27EA6 /* TourGPSForHololensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3FDDFD1F801BE100A27EA6 /* TourGPSForHololensViewController.swift */; };
+		FB3FDE001F801C1600A27EA6 /* InteractiveMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3FDDFF1F801C1600A27EA6 /* InteractiveMapViewController.swift */; };
+		FB6F867E1FD30B5100FB0AB6 /* CoreUmpacto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6F867A1FD3068B00FB0AB6 /* CoreUmpacto.framework */; };
+		FB6F867F1FD30B5100FB0AB6 /* CoreUmpacto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB6F867A1FD3068B00FB0AB6 /* CoreUmpacto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB6F86821FD3103500FB0AB6 /* TourConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6F86811FD3103500FB0AB6 /* TourConstants.swift */; };
+		FB6F86841FD312DC00FB0AB6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6F86831FD312DC00FB0AB6 /* Service.swift */; };
 		FB8C2A3C1F800CE4001816A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C2A3B1F800CE4001816A0 /* AppDelegate.swift */; };
-		FB8C2A3E1F800CE4001816A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C2A3D1F800CE4001816A0 /* ViewController.swift */; };
 		FB8C2A411F800CE4001816A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8C2A3F1F800CE4001816A0 /* Main.storyboard */; };
 		FB8C2A441F800CE4001816A0 /* Tour_GPS_For_Hololens.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8C2A421F800CE4001816A0 /* Tour_GPS_For_Hololens.xcdatamodeld */; };
 		FB8C2A461F800CE4001816A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8C2A451F800CE4001816A0 /* Assets.xcassets */; };
 		FB8C2A491F800CE4001816A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8C2A471F800CE4001816A0 /* LaunchScreen.storyboard */; };
 		FB8C2A541F800CE4001816A0 /* Tour_GPS_For_HololensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C2A531F800CE4001816A0 /* Tour_GPS_For_HololensTests.swift */; };
 		FB8C2A5F1F800CE4001816A0 /* Tour_GPS_For_HololensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C2A5E1F800CE4001816A0 /* Tour_GPS_For_HololensUITests.swift */; };
+		FB9D21D11FD3166E008A7B1C /* PointService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D21D01FD3166E008A7B1C /* PointService.swift */; };
+		FB9D21D31FD31A25008A7B1C /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D21D21FD31A25008A7B1C /* Point.swift */; };
+		FB9D21D51FD32833008A7B1C /* LocationHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D21D41FD32833008A7B1C /* LocationHistory.swift */; };
+		FB9D21D71FD328B9008A7B1C /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D21D61FD328B9008A7B1C /* LocationService.swift */; };
+		FBB3C7191FA4E42F00AA0E79 /* MyHololensTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3C7181FA4E42F00AA0E79 /* MyHololensTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,21 +48,56 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FB6F86801FD30B5200FB0AB6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB6F867F1FD30B5100FB0AB6 /* CoreUmpacto.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		12220C6B0E82892B59BF1BED /* Pods_Tour_GPS_For_Hololens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tour_GPS_For_Hololens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		240F84AE3F4F2A7F958380CC /* Pods_Tour_GPS_For_HololensUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tour_GPS_For_HololensUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E60E40487F2C8CF0E44C2B /* Pods-Tour GPS For Hololens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour GPS For Hololens.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour GPS For Hololens/Pods-Tour GPS For Hololens.debug.xcconfig"; sourceTree = "<group>"; };
+		98DA4F6237B1206232732B01 /* Pods_Tour_GPS_For_HololensTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tour_GPS_For_HololensTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99099570DD5D54F047BCC41B /* Pods-Tour GPS For Hololens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour GPS For Hololens.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour GPS For Hololens/Pods-Tour GPS For Hololens.release.xcconfig"; sourceTree = "<group>"; };
+		A8413CC6FCBEB67FECCBE4F9 /* Pods-Tour GPS For HololensTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour GPS For HololensTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour GPS For HololensTests/Pods-Tour GPS For HololensTests.release.xcconfig"; sourceTree = "<group>"; };
+		C764E3BD6A17D08A25211013 /* Pods-Tour GPS For HololensUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour GPS For HololensUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour GPS For HololensUITests/Pods-Tour GPS For HololensUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD74D489FB16A4EC954D8857 /* Pods-Tour GPS For HololensUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour GPS For HololensUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour GPS For HololensUITests/Pods-Tour GPS For HololensUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E656A4599DC9A18DE58E9181 /* Pods-Tour GPS For HololensTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour GPS For HololensTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour GPS For HololensTests/Pods-Tour GPS For HololensTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB3D92701FB751BD001663BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB3FDDFD1F801BE100A27EA6 /* TourGPSForHololensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourGPSForHololensViewController.swift; sourceTree = "<group>"; };
+		FB3FDDFF1F801C1600A27EA6 /* InteractiveMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveMapViewController.swift; sourceTree = "<group>"; };
+		FB3FDE031F801E1900A27EA6 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		FB3FDE041F801E1900A27EA6 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FB43B6AB1FB752E5002A2957 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6F867A1FD3068B00FB0AB6 /* CoreUmpacto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreUmpacto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6F86811FD3103500FB0AB6 /* TourConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourConstants.swift; sourceTree = "<group>"; };
+		FB6F86831FD312DC00FB0AB6 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		FB8C2A381F800CE4001816A0 /* Tour GPS For Hololens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour GPS For Hololens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8C2A3B1F800CE4001816A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB8C2A3D1F800CE4001816A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB8C2A401F800CE4001816A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB8C2A431F800CE4001816A0 /* Tour_GPS_For_Hololens.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tour_GPS_For_Hololens.xcdatamodel; sourceTree = "<group>"; };
 		FB8C2A451F800CE4001816A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8C2A481F800CE4001816A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB8C2A4A1F800CE4001816A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB8C2A4F1F800CE4001816A0 /* Tour GPS For HololensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tour GPS For HololensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8C2A531F800CE4001816A0 /* Tour_GPS_For_HololensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour_GPS_For_HololensTests.swift; sourceTree = "<group>"; };
 		FB8C2A551F800CE4001816A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB8C2A5A1F800CE4001816A0 /* Tour GPS For HololensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tour GPS For HololensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8C2A5E1F800CE4001816A0 /* Tour_GPS_For_HololensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour_GPS_For_HololensUITests.swift; sourceTree = "<group>"; };
 		FB8C2A601F800CE4001816A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9D21D01FD3166E008A7B1C /* PointService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointService.swift; sourceTree = "<group>"; };
+		FB9D21D21FD31A25008A7B1C /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		FB9D21D41FD32833008A7B1C /* LocationHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHistory.swift; sourceTree = "<group>"; };
+		FB9D21D61FD328B9008A7B1C /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		FBB3C7181FA4E42F00AA0E79 /* MyHololensTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHololensTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A42D44891DC6048F614CC9 /* Pods_Tour_GPS_For_Hololens.framework in Frameworks */,
+				FB6F867E1FD30B5100FB0AB6 /* CoreUmpacto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B2CAFF38BB851FF5998607 /* Pods_Tour_GPS_For_HololensTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +122,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8056709DF03D27499B41E2E2 /* Pods_Tour_GPS_For_HololensUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		406B4763F43B38FAA1DBCE56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68E60E40487F2C8CF0E44C2B /* Pods-Tour GPS For Hololens.debug.xcconfig */,
+				99099570DD5D54F047BCC41B /* Pods-Tour GPS For Hololens.release.xcconfig */,
+				E656A4599DC9A18DE58E9181 /* Pods-Tour GPS For HololensTests.debug.xcconfig */,
+				A8413CC6FCBEB67FECCBE4F9 /* Pods-Tour GPS For HololensTests.release.xcconfig */,
+				C764E3BD6A17D08A25211013 /* Pods-Tour GPS For HololensUITests.debug.xcconfig */,
+				CD74D489FB16A4EC954D8857 /* Pods-Tour GPS For HololensUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B39B22754F5AF67FAD6234FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB6F867A1FD3068B00FB0AB6 /* CoreUmpacto.framework */,
+				12220C6B0E82892B59BF1BED /* Pods_Tour_GPS_For_Hololens.framework */,
+				98DA4F6237B1206232732B01 /* Pods_Tour_GPS_For_HololensTests.framework */,
+				240F84AE3F4F2A7F958380CC /* Pods_Tour_GPS_For_HololensUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB3FDDFA1F800DEB00A27EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB3FDE071F801FCB00A27EA6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FB6F86831FD312DC00FB0AB6 /* Service.swift */,
+				FB9D21D01FD3166E008A7B1C /* PointService.swift */,
+				FB9D21D61FD328B9008A7B1C /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		FB8C2A2F1F800CE4001816A0 = {
 			isa = PBXGroup;
 			children = (
+				FB3D92701FB751BD001663BC /* Default-568h@2x.png */,
 				FB8C2A3A1F800CE4001816A0 /* Tour GPS For Hololens */,
 				FB8C2A521F800CE4001816A0 /* Tour GPS For HololensTests */,
 				FB8C2A5D1F800CE4001816A0 /* Tour GPS For HololensUITests */,
 				FB8C2A391F800CE4001816A0 /* Products */,
+				406B4763F43B38FAA1DBCE56 /* Pods */,
+				B39B22754F5AF67FAD6234FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +197,17 @@
 			isa = PBXGroup;
 			children = (
 				FB8C2A3B1F800CE4001816A0 /* AppDelegate.swift */,
-				FB8C2A3D1F800CE4001816A0 /* ViewController.swift */,
-				FB8C2A3F1F800CE4001816A0 /* Main.storyboard */,
+				FB8C2A6D1F800D02001816A0 /* Models */,
+				FB3FDE071F801FCB00A27EA6 /* Services */,
+				FB8C2A6C1F800CF0001816A0 /* Controllers */,
+				FB8C2A6E1F800D10001816A0 /* Views */,
 				FB8C2A451F800CE4001816A0 /* Assets.xcassets */,
+				FB3FDDFA1F800DEB00A27EA6 /* Supporting Files */,
 				FB8C2A471F800CE4001816A0 /* LaunchScreen.storyboard */,
-				FB8C2A4A1F800CE4001816A0 /* Info.plist */,
+				FB43B6AB1FB752E5002A2957 /* Info.plist */,
 				FB8C2A421F800CE4001816A0 /* Tour_GPS_For_Hololens.xcdatamodeld */,
+				FB3FDDFD1F801BE100A27EA6 /* TourGPSForHololensViewController.swift */,
+				FB6F86811FD3103500FB0AB6 /* TourConstants.swift */,
 			);
 			path = "Tour GPS For Hololens";
 			sourceTree = "<group>";
@@ -128,6 +230,32 @@
 			path = "Tour GPS For HololensUITests";
 			sourceTree = "<group>";
 		};
+		FB8C2A6C1F800CF0001816A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB3FDDFF1F801C1600A27EA6 /* InteractiveMapViewController.swift */,
+				FBB3C7181FA4E42F00AA0E79 /* MyHololensTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB8C2A6D1F800D02001816A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D21D21FD31A25008A7B1C /* Point.swift */,
+				FB9D21D41FD32833008A7B1C /* LocationHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB8C2A6E1F800D10001816A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C2A3F1F800CE4001816A0 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +263,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8C2A631F800CE4001816A0 /* Build configuration list for PBXNativeTarget "Tour GPS For Hololens" */;
 			buildPhases = (
+				9EED51BD86E1C6CC59FE7C80 /* [CP] Check Pods Manifest.lock */,
 				FB8C2A341F800CE4001816A0 /* Sources */,
 				FB8C2A351F800CE4001816A0 /* Frameworks */,
 				FB8C2A361F800CE4001816A0 /* Resources */,
+				E7C060A2CC6BFFBF083F9B16 /* [CP] Embed Pods Frameworks */,
+				C0FB179E5393D96F2878D4AD /* [CP] Copy Pods Resources */,
+				FB6F86801FD30B5200FB0AB6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8C2A661F800CE4001816A0 /* Build configuration list for PBXNativeTarget "Tour GPS For HololensTests" */;
 			buildPhases = (
+				1813FB3108CDE5F69F90C8C2 /* [CP] Check Pods Manifest.lock */,
 				FB8C2A4B1F800CE4001816A0 /* Sources */,
 				FB8C2A4C1F800CE4001816A0 /* Frameworks */,
 				FB8C2A4D1F800CE4001816A0 /* Resources */,
+				718ADD47BF4E60346E543D2D /* [CP] Embed Pods Frameworks */,
+				E93DEC395819772A3F2E5E80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8C2A691F800CE4001816A0 /* Build configuration list for PBXNativeTarget "Tour GPS For HololensUITests" */;
 			buildPhases = (
+				D0AB65CD34403C9CE9ED7F43 /* [CP] Check Pods Manifest.lock */,
 				FB8C2A561F800CE4001816A0 /* Sources */,
 				FB8C2A571F800CE4001816A0 /* Frameworks */,
 				FB8C2A581F800CE4001816A0 /* Resources */,
+				60C16DE7F69A77101D610426 /* [CP] Embed Pods Frameworks */,
+				7BD32B9037138D3C68BE2532 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,12 +329,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Umpacto Soluciones Cia. Ltda";
 				TargetAttributes = {
 					FB8C2A371F800CE4001816A0 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					FB8C2A4E1F800CE4001816A0 = {
 						CreatedOnToolsVersion = 9.0;
@@ -236,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB8C2A491F800CE4001816A0 /* LaunchScreen.storyboard in Resources */,
+				FB3D92711FB751BE001663BC /* Default-568h@2x.png in Resources */,
 				FB8C2A461F800CE4001816A0 /* Assets.xcassets in Resources */,
 				FB8C2A411F800CE4001816A0 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +401,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1813FB3108CDE5F69F90C8C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tour GPS For HololensTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60C16DE7F69A77101D610426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour GPS For HololensUITests/Pods-Tour GPS For HololensUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718ADD47BF4E60346E543D2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour GPS For HololensTests/Pods-Tour GPS For HololensTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD32B9037138D3C68BE2532 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour GPS For HololensUITests/Pods-Tour GPS For HololensUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EED51BD86E1C6CC59FE7C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tour GPS For Hololens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FB179E5393D96F2878D4AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tour GPS For Hololens/Pods-Tour GPS For Hololens-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour GPS For Hololens/Pods-Tour GPS For Hololens-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0AB65CD34403C9CE9ED7F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tour GPS For HololensUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C060A2CC6BFFBF083F9B16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour GPS For Hololens/Pods-Tour GPS For Hololens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E93DEC395819772A3F2E5E80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour GPS For HololensTests/Pods-Tour GPS For HololensTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB8C2A341F800CE4001816A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8C2A3E1F800CE4001816A0 /* ViewController.swift in Sources */,
+				FB9D21D11FD3166E008A7B1C /* PointService.swift in Sources */,
+				FB9D21D51FD32833008A7B1C /* LocationHistory.swift in Sources */,
+				FB3FDE001F801C1600A27EA6 /* InteractiveMapViewController.swift in Sources */,
+				FB6F86841FD312DC00FB0AB6 /* Service.swift in Sources */,
 				FB8C2A441F800CE4001816A0 /* Tour_GPS_For_Hololens.xcdatamodeld in Sources */,
+				FBB3C7191FA4E42F00AA0E79 /* MyHololensTableViewController.swift in Sources */,
+				FB9D21D71FD328B9008A7B1C /* LocationService.swift in Sources */,
+				FB9D21D31FD31A25008A7B1C /* Point.swift in Sources */,
+				FB6F86821FD3103500FB0AB6 /* TourConstants.swift in Sources */,
 				FB8C2A3C1F800CE4001816A0 /* AppDelegate.swift in Sources */,
+				FB3FDDFE1F801BE100A27EA6 /* TourGPSForHololensViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +606,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FB8C2A401F800CE4001816A0 /* Base */,
+				FB3FDE031F801E1900A27EA6 /* es-419 */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +615,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FB8C2A481F800CE4001816A0 /* Base */,
+				FB3FDE041F801E1900A27EA6 /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +627,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +685,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -428,6 +734,7 @@
 		};
 		FB8C2A641F800CE4001816A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E60E40487F2C8CF0E44C2B /* Pods-Tour GPS For Hololens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +750,7 @@
 		};
 		FB8C2A651F800CE4001816A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99099570DD5D54F047BCC41B /* Pods-Tour GPS For Hololens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +766,7 @@
 		};
 		FB8C2A671F800CE4001816A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E656A4599DC9A18DE58E9181 /* Pods-Tour GPS For HololensTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +784,7 @@
 		};
 		FB8C2A681F800CE4001816A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8413CC6FCBEB67FECCBE4F9 /* Pods-Tour GPS For HololensTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +802,7 @@
 		};
 		FB8C2A6A1F800CE4001816A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C764E3BD6A17D08A25211013 /* Pods-Tour GPS For HololensUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +819,7 @@
 		};
 		FB8C2A6B1F800CE4001816A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD74D489FB16A4EC954D8857 /* Pods-Tour GPS For HololensUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

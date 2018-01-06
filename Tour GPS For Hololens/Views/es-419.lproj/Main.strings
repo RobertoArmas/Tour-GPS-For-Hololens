@@ -1,0 +1,12 @@
+
+/* Class = "UITabBarItem"; title = "My Hololens"; ObjectID = "83B-zH-6eG"; */
+"83B-zH-6eG.title" = "Mi Hololens";
+
+/* Class = "UINavigationItem"; title = "My Hololens"; ObjectID = "fcq-GV-989"; */
+"fcq-GV-989.title" = "Mi Hololens";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "pO8-Zl-GAi"; */
+"pO8-Zl-GAi.title" = "Mapa";
+
+/* Class = "UINavigationItem"; title = "Interative Map"; ObjectID = "vQz-Q7-fZo"; */
+"vQz-Q7-fZo.title" = "Mapa Interactivo";
